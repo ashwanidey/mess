@@ -75,7 +75,7 @@ background: url("./assets/approved.png"), lightgray -88px -264.333px / 195.652% 
 height: 2.875rem;
 flex-shrink: 0;
 
-background: url("/assets/date.png"), lightgray -47px -504.333px / 571.429% 1744.928% no-repeat;
+background: url("./assets/date.png"), lightgray -47px -504.333px / 571.429% 1744.928% no-repeat;
 }
 
 .line{
