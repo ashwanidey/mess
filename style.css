@@ -1,0 +1,137 @@
+.container{
+    display: flex;
+    width: 22.5rem;
+    height: 50rem;
+    background: #323232;
+}
+
+.black_container{
+    justify-content: center;
+    align-items: center;
+    width: 22.5rem;
+    height: 46rem;
+    flex-shrink: 0;
+    background: #222;
+}
+
+.mess_plan{
+    width: 22.5rem;
+height: 3.1875rem;
+flex-shrink: 0;
+background: url("./assets/mess plan.png"), lightgray -1.399px -45.333px / 100% 1573.856% no-repeat;
+}
+
+.white_container{
+    position: relative;
+    width: 22.5rem;
+    height: 41.8125rem;
+    flex-shrink: 0;
+    background: #FBFBFB;
+}
+
+.shadow_container{
+    position: absolute;
+    left: 3%;
+    top: 2%;
+    width: 20.6875rem;
+height: 34.5625rem;
+flex-shrink: 0;
+
+border-radius: 1.125rem;
+background: #F9F9F9;
+box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.35);
+}
+
+
+.image_container{
+    position: relative;
+    left: 3%;
+    width: 7.875rem;
+height: 7.875rem;
+flex-shrink: 0;
+
+fill: #F9F9F9;
+stroke-width: 0px;
+stroke: #000;
+filter: drop-shadow(0px 3px 5px rgba(0, 0, 0, 0.2));
+}
+
+
+.meal_approved{
+    position: absolute;
+    top: 27%;
+    left: 20%;
+    width: 11.5rem;
+height: 3.0625rem;
+flex-shrink: 0;
+background: url("./assets/approved.png"), lightgray -88px -264.333px / 195.652% 1638.095% no-repeat;
+}
+
+.Date{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    width: 3.9375rem;
+height: 2.875rem;
+flex-shrink: 0;
+
+background: url("/assets/date.png"), lightgray -47px -504.333px / 571.429% 1744.928% no-repeat;
+}
+
+.line{
+    position: absolute;
+    top: 80%;
+    left: 13%;
+    width: 15.875rem;
+height: 0.15625rem;
+background: #CFCFCF;
+}
+
+.time{
+    position: absolute;
+    top: 81%;
+    left: 10%;
+    width: 3.875rem;
+height: 2.8125rem;
+flex-shrink: 0;
+background: url("./assets/time.png"), lightgray -49px -558.333px / 580.645% 1783.704% no-repeat;
+}
+
+.verification_code{
+    position: absolute;
+    top: 88%;
+    left: 5%;
+    width: 19.1875rem;
+height: 3.6875rem;
+flex-shrink: 0;
+background: url(./assets/code.png), lightgray -28px -600.333px / 117.264% 1360.452% no-repeat;
+}
+
+video{
+    outline: none;
+    border: none;
+    position: absolute;
+    top: 37%;
+    overflow: hidden;
+}
+
+.rec1{
+    position: absolute;
+    top: 36%;
+    width: 20.6875rem;
+height: 0.45rem;
+flex-shrink: 0;
+z-index: 1;
+background: #F9F9F9;
+}
+
+.rec2{
+    position: absolute;
+    top: 36%;
+    right: -0.2px;
+    z-index: 1;
+    width: 0.8125rem;
+height: 12rem;
+flex-shrink: 0;
+background: #F9F9F9;
+}
